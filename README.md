@@ -1,6 +1,6 @@
 # gulp-standardize
 [![Build Status](https://travis-ci.org/michaelgilley/gulp-standardize.png?branch=master)](https://travis-ci.org/michaelgilley/gulp-standardize)
-[![NPM version](https://badge.fury.io/js/gulp-standard.png)](http://badge.fury.io/js/gulp-standard)
+[![NPM version](https://badge.fury.io/js/gulp-standardize.png)](http://badge.fury.io/js/gulp-standardize)
 
 > [Standard JS](http://standardjs.com/) Linter for Gulp with [Snazzy](https://github.com/feross/snazzy) reporter.
 
