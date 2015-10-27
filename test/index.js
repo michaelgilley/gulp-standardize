@@ -20,9 +20,7 @@ describe('gulp-standardize', function () {
         }))
     })
 
-    gulp.start('syntax', function () {
-      done()
-    })
+    gulp.start('syntax', done)
   })
 })
 
