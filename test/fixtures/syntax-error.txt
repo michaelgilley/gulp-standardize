@@ -1,0 +1,9 @@
+
+var foo = true
+
+var bar = function () {
+  foo = false
+  afd
+}
+
+bar(foo)
