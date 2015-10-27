@@ -1,6 +1,6 @@
 # gulp-standardize
 
-> Standard JS Linter for Gulp
+> [Standard JS](http://standardjs.com/) Linter for Gulp with [Snazzy](https://github.com/feross/snazzy) reporter.
 
 ## Install
 
