@@ -44,5 +44,5 @@ exports.reporter = function reporter (style, opts) {
   }
 
   // Fall thru
-  return through()
+  return through.obj()
 }

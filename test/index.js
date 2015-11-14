@@ -65,7 +65,8 @@ describe('fail reporter', function () {
     })
 
     gulp.start('fail', function (err) {
-      should(err).be.an.Error()
+      err.should.be.an.Error()
+      err.message.slice(0, 15).should.equal('Standard failed')
       done()
     })
   })
@@ -79,7 +80,8 @@ describe('fail reporter', function () {
     })
 
     gulp.start('fail-after', function (err) {
-      should(err).be.an.Error()
+      err.should.be.an.Error()
+      err.message.slice(0, 15).should.equal('Standard failed')
       done()
     })
   })

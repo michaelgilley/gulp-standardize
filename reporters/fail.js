@@ -7,6 +7,7 @@ var PluginError = require('gulp-util').PluginError
 
 module.exports = function failReporter (opts) {
   var fails = false
+  opts = opts || {}
   var buffer = opts.buffer !== false ? [] : false
 
   return through.obj(function (file, enc, cb) {
